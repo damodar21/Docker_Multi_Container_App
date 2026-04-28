@@ -29,7 +29,8 @@ Browser → Nginx (Frontend) → Node.js API (Backend)
 ---
 
 ## 📂 Project Structure
-
+```text
+.
 containerized-web-app/
 ├── frontend/
 │   ├── Dockerfile
@@ -41,7 +42,7 @@ containerized-web-app/
 │   └── package.json
 ├── docker-compose.yml
 └── README.md
-
+```
 
 ---
 
