@@ -98,7 +98,7 @@ json
 
 ## 📸 Screenshots
 
-*Add screenshots of your running application here*
+<img src="MultiContainerWebApp.png" alt="App" width="200" height="100">
 
 ---
 
