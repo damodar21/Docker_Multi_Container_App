@@ -1,6 +1,6 @@
 # 🚀 Containerized Web Application (Nginx + Node.js)
 
-## 📌 Overview
+## Overview
 
 This project demonstrates a **multi-container web application** using Docker and Docker Compose. It includes a frontend served by Nginx and a backend API built with Node.js.
 
@@ -88,10 +88,7 @@ GET /api
 
 Response:
 
-json
-{
   "message": "Hello from Node.js backend 🚀"
-}
 
 
 ---
@@ -114,7 +111,6 @@ docker ps
 
 docker logs -f <container_id>
 
-
 ---
 
 ### Issue: Backend API not responding
@@ -122,6 +118,10 @@ docker logs -f <container_id>
 * Verify backend container is running
 * Check logs:
 docker logs backend
+
+* Screenshot of logs when backend is not running
+<img src="Logs.png" alt="BackendLog" width="200" height="100">
+  
 
 ---
 
